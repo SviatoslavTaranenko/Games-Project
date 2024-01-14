@@ -148,13 +148,35 @@ body {
 }
 
 @media (max-width: 1220px) {
-
   .about__img {
-    border-radius: 22px;
     display: flex;
     justify-content: center;
     align-content: center;
     align-items: center;
+  }
+}
+
+@media (max-width: 670px) {
+  .about__img img {
+    border-radius: 22px;
+    width: 492px;
+    height: 316px;
+  }
+}
+
+@media (max-width: 500px) {
+  .about__img img {
+    border-radius: 22px;
+    width: 422px;
+    height: 246px;
+  }
+}
+
+@media (max-width: 400px) {
+  .about__img img {
+    border-radius: 22px;
+    width: 382px;
+    height: 206px;
   }
 }
 
