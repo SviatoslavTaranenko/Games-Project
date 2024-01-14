@@ -136,6 +136,10 @@ body {
   justify-content: center;
 }
 
+.about__img img {
+  border-radius: 22px;
+}
+
 @media (max-width: 1220px) {
 
   .about .about__all {
@@ -147,6 +151,7 @@ body {
 @media (max-width: 1220px) {
 
   .about__img {
+    border-radius: 22px;
     display: flex;
     justify-content: center;
     align-content: center;
